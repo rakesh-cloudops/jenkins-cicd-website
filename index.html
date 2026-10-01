@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevOps Launchpad</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        DevOps<span>Launchpad</span>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#pipeline">Pipeline</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="tag">
+            CI/CD • CLOUD • AUTOMATION
+        </p>
+
+        <h1>
+            From Code
+            <span>to Production.</span>
+        </h1>
+
+        <p class="hero-text">
+            A practical DevOps deployment powered by GitHub,
+            Jenkins and AWS EC2.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#pipeline" class="btn primary">
+                View Pipeline
+            </a>
+
+            <a href="#projects" class="btn secondary">
+                Explore Project
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="terminal">
+
+        <div class="terminal-header">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="terminal-body">
+
+            <p>$ git push origin main</p>
+
+            <p class="success">
+                ✓ Code pushed successfully
+            </p>
+
+            <p>$ jenkins build</p>
+
+            <p class="success">
+                ✓ Pipeline started
+            </p>
+
+            <p>$ deploy.sh</p>
+
+            <p class="success">
+                ✓ Website deployed
+            </p>
+
+            <p>$ status</p>
+
+            <p class="online">
+                ● APPLICATION ONLINE
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about" class="section">
+
+    <div class="section-title">
+        <p>01 / ABOUT</p>
+        <h2>Building software through automation.</h2>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+
+            <h3>Why DevOps?</h3>
+
+            <p>
+                DevOps connects development and operations using
+                automation, collaboration and continuous delivery.
+            </p>
+
+            <p>
+                This project demonstrates how source code can move
+                from GitHub to a live EC2 server automatically.
+            </p>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <strong>04</strong>
+                <span>Pipeline Stages</span>
+            </div>
+
+            <div class="stat">
+                <strong>01</strong>
+                <span>AWS Server</span>
+            </div>
+
+            <div class="stat">
+                <strong>8085</strong>
+                <span>Web Port</span>
+            </div>
+
+            <div class="stat">
+                <strong>100%</strong>
+                <span>Automation Goal</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="skills" class="section dark-section">
+
+    <div class="section-title">
+
+        <p>02 / TECHNOLOGIES</p>
+
+        <h2>Tools behind the deployment.</h2>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="icon">G</div>
+            <h3>GitHub</h3>
+            <p>
+                Source code repository and version control.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">J</div>
+            <h3>Jenkins</h3>
+            <p>
+                Automation engine responsible for CI/CD.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">A</div>
+            <h3>AWS EC2</h3>
+            <p>
+                Cloud server where the application runs.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">L</div>
+            <h3>Linux</h3>
+            <p>
+                Operating system powering the deployment server.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">H</div>
+            <h3>HTML</h3>
+            <p>
+                Structure of the web application.
+            </p>
+        </div>
+
+        <div class="skill-card">
+            <div class="icon">C</div>
+            <h3>CSS</h3>
+            <p>
+                Visual design and responsive layout.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="pipeline" class="section">
+
+    <div class="section-title">
+
+        <p>03 / CI/CD PIPELINE</p>
+
+        <h2>Code moves automatically.</h2>
+
+    </div>
+
+
+    <div class="pipeline">
+
+        <div class="pipeline-step">
+
+            <div class="number">01</div>
+
+            <h3>Developer</h3>
+
+            <p>
+                Website code is committed to GitHub.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="pipeline-step">
+
+            <div class="number">02</div>
+
+            <h3>Jenkins</h3>
+
+            <p>
+                Jenkins detects and executes the pipeline.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="pipeline-step">
+
+            <div class="number">03</div>
+
+            <h3>Build & Test</h3>
+
+            <p>
+                Files are validated before deployment.
+            </p>
+
+        </div>
+
+
+        <div class="arrow">→</div>
+
+
+        <div class="pipeline-step">
+
+            <div class="number">04</div>
+
+            <h3>Deploy</h3>
+
+            <p>
+                Website is deployed to AWS EC2.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="projects" class="section dark-section">
+
+    <div class="section-title">
+
+        <p>04 / PROJECT</p>
+
+        <h2>What Jenkins is deploying.</h2>
+
+    </div>
+
+
+    <div class="project-card">
+
+        <div class="project-info">
+
+            <span class="project-label">
+                LIVE DEPLOYMENT
+            </span>
+
+            <h3>DevOps Launchpad</h3>
+
+            <p>
+                This website is stored in GitHub and deployed
+                automatically to an AWS EC2 instance using Jenkins.
+            </p>
+
+            <div class="project-tags">
+
+                <span>GitHub</span>
+                <span>Jenkins</span>
+                <span>AWS</span>
+                <span>Linux</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="deployment-status">
+
+            <div class="status-dot"></div>
+
+            <div>
+
+                <strong>Deployment Status</strong>
+
+                <p>
+                    Application Ready
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta">
+
+    <p>CONTINUOUS DELIVERY</p>
+
+    <h2>
+        Commit code.<br>
+        Build automatically.<br>
+        Deploy confidently.
+    </h2>
+
+</section>
+
+
+<footer>
+
+    <p>
+        DevOps Launchpad
+    </p>
+
+    <p>
+        Built with HTML, CSS, JavaScript & Jenkins
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
